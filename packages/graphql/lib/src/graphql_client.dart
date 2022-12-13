@@ -1,10 +1,9 @@
-import 'package:meta/meta.dart';
 import 'dart:async';
 
-import 'package:graphql/src/core/core.dart';
 import 'package:graphql/src/cache/cache.dart';
-
+import 'package:graphql/src/core/core.dart';
 import 'package:graphql/src/core/fetch_more.dart';
+import 'package:meta/meta.dart';
 
 /// Universal GraphQL Client with configurable caching and [link][] system.
 /// modelled after the [`apollo-client`][ac].
