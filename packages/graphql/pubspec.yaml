@@ -14,16 +14,13 @@ dependencies:
   gql_link: ^0.5.0
   # gql_http_link: ^0.4.4+1
   gql_http_link:
-    path: /Users/matthewjarvis/forge/code/prod/gql/links/gql_http_link
-  # gql_transform_link: ^0.2.2
-  gql_transform_link:
-    path: /Users/matthewjarvis/forge/code/prod/gql/links/gql_transform_link
-  # gql_error_link: ^0.2.3
-  gql_error_link:
-    path: /Users/matthewjarvis/forge/code/prod/gql/links/gql_error_link
-  # gql_dedupe_link: ^2.0.3
-  gql_dedupe_link:
-    path: /Users/matthewjarvis/forge/code/prod/gql/links/gql_dedupe_link
+    git: 
+      url: https://github.com/msivraj/gql.git
+      path: links/gql_http_link
+    # path: /Users/matthewjarvis/forge/code/prod/gql/links/gql_http_link
+  gql_transform_link: ^0.2.2
+  gql_error_link: ^0.2.3
+  gql_dedupe_link: ^2.0.3
   hive: ^2.1.0
   normalize: ^0.7.1
   http: ^0.13.0
@@ -40,8 +37,6 @@ dev_dependencies:
   coverage: ^1.0.3
   http_parser: ^4.0.0
   lints: ^1.0.1
-
-dependency_overrides:
 
 environment:
   sdk: '>=2.12.0 <3.0.0'
